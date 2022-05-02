@@ -1,5 +1,6 @@
 package com.example.thoughtshare
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -21,5 +22,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"login",Toast.LENGTH_SHORT).show()
         }
 
+
+        mBinding?.signupTv?.setOnClickListener {
+            val mIntent = Intent(this,SignupActivity::class.java)
+            startActivity(mIntent)
+        }
     }
 }

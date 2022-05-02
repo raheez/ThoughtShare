@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity"
+    tools:context=".SignupActivity"
     android:background="@color/black">
 
 
@@ -38,10 +38,10 @@
 
 
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="login"
+        android:text="signup"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
@@ -52,16 +52,4 @@
 
 
 
-    <TextView
-        android:id="@+id/signup_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="signup"
-        android:layout_gravity="right"
-        android:layout_marginRight="25dp"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/white"
-        >
-
-    </TextView>
 </LinearLayout>
